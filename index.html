@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/index.min.js"></script>
+    
+</head>
+
+<body class="w-[100%]">
+
+    <div id="root" class="flex justify-center w-[100%]">
+
+        <div data-page="1" class="relative bg-background text-foreground shadow-2xl underline-links"
+            style="font-family: IBM Plex Serif; width: 793.8px; min-height: 1122.66px;">
+            <div class="absolute -top-7 left-0 font-bold">Page 1</div>
+            <div class="grid min-h-[inherit] grid-cols-3">
+                <div class="sidebar group flex flex-col">
+                    <div class="p-custom text-white space-y-4 bg-primary text-background flex flex-col items-center">
+                        <img
+                            src="https://lh3.googleusercontent.com/a/ACg8ocIslH84ZlsvkcazKlH5v_r8EKTBV3_9Dmk-XeKHA77jqLpk-BLR=s96-c"
+                            alt="Profile" class="w-[35%] h-[35%] border-dashed border-2 border-blue-500 rounded-full sm: w-[70%] h-[70%]">
+                        <div>
+                            <h2 class="text-lg  font-bold sm:text-2xl">García Muñoz Enrique</h2>
+                            <p>Web Developer Jr</p>
+                        </div>
+                        <div class="flex flex-col items-start gap-y-2 text-sm">
+                            <div class="flex items-center gap-x-1.5"><i class="ph ph-bold ph-map-pin"></i>
+                                <div>Ciudad de México</div>
+                            </div>
+                            <div class="flex items-center gap-x-1.5"><i class="ph ph-bold ph-phone"></i><a
+                                    href="tel:5510081716" target="_blank" rel="noreferrer">5510081716</a></div>
+                            <div class="flex items-center gap-x-1.5"><i class="ph ph-bold ph-at"></i><a
+                                    href="mailto:mgquique52@gmail.com" target="_blank"
+                                    rel="noreferrer">mgquique52@gmail.com</a></div>
+                        </div>
+                    </div>
+                    <div class="p-custom flex-1 space-y-4" style="background-color: rgba(37, 99, 235, 0.2);">
+                        <section id="profiles" class="grid">
+                            <h4 class="mb-2 border-b border-primary text-base font-bold">Network</h4>
+                            <div class="grid gap-x-6 gap-y-3" style="grid-template-columns: repeat(1, 1fr);">
+                                <div class="space-y-2">
+                                    <div>
+                                        <div>
+                                            <p>Enrique García Muñoz</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="skills" class="grid">
+                            <h4 class="mb-2 border-b border-primary text-base font-bold">Habilidades</h4>
+                            <div class="grid gap-x-6 gap-y-3" style="grid-template-columns: repeat(1, 1fr);">
+                                <div class="space-y-2">
+                                    <div>
+                                        <div>
+                                            <div class="font-bold">Social</div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2">
+                                    <div>
+                                        <div>
+                                            <div class="font-bold">Habilidad</div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2">
+                                    <div>
+                                        <div>
+                                            <div class="font-bold">Habilidad</div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2">
+                                    <div>
+                                        <div>
+                                            <div class="font-bold">Habilidad</div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="languages" class="grid">
+                            <h4 class="mb-2 border-b border-primary text-base font-bold">Idiomas</h4>
+                            <div class="grid gap-x-6 gap-y-3" style="grid-template-columns: repeat(1, 1fr);">
+                                <div class="space-y-2">
+                                    <div>
+                                        <div>
+                                            <div class="font-bold">Idiomas</div>
+                                            <div>B2</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="main group col-span-2">
+                    <div class="p-custom space-y-4" style="background-color: rgba(37, 99, 235, 0.2);">
+                        <section id="summary" class="hidden sm:block">
+                            <div class="wysiwyg" style="columns: 1;">
+                                <p>Desarrollador jr con interés en incorporarme a un equipo de desarrollo de paginas web
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="p-custom space-y-4">
+                        <section id="experience" class="grid">
+                            <h4 class="mb-2 border-b border-primary text-base font-bold">Experiencia </h4>
+                            <div class="grid gap-x-6 gap-y-3" style="grid-template-columns: repeat(1, 1fr);">
+                                <div class="space-y-2">
+                                    <div>
+                                        <div
+                                            class="flex items-start justify-between group-[.sidebar]:flex-col group-[.sidebar]:items-start">
+                                            <div class="text-left">
+                                                <div class="font-bold">SEMARNAT servicio social</div>
+                                                <div>Supervisor </div>
+                                            </div>
+                                            <div class="shrink-0 text-right group-[.sidebar]:text-left">
+                                                <div class="font-bold">2015-2016</div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2">
+                                    <div>
+                                        <div
+                                            class="flex items-start justify-between group-[.sidebar]:flex-col group-[.sidebar]:items-start">
+                                            <div class="text-left">
+                                                <div class="font-bold">SSEMARNAT</div>
+                                                <div>Técnico Superior</div>
+                                            </div>
+                                            <div class="shrink-0 text-right group-[.sidebar]:text-left">
+                                                <div class="font-bold">Febrero 2024- Actual</div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="education" class="grid">
+                            <h4 class="mb-2 border-b border-primary text-base font-bold">Educación </h4>
+                            <div class="grid gap-x-6 gap-y-3" style="grid-template-columns: repeat(1, 1fr);">
+                                <div class="space-y-2">
+                                    <div>
+                                        <div
+                                            class="flex items-start justify-between group-[.sidebar]:flex-col group-[.sidebar]:items-start">
+                                            <div class="text-left">
+                                                <div class="font-bold">IPN</div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                            <div class="shrink-0 text-right group-[.sidebar]:text-left">
+                                                <div class="font-bold">2019-2024</div>
+                                                <div>Ingeniería en electronica </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute inset-x-0 border-b border-dashed" style="top: 1122.66px;"></div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
